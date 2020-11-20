@@ -76,7 +76,7 @@ abstract class PDOConnection extends Connection
         // 断线标识字符串
         'break_match_str' => [],
         // 数据集返回类型
-        'resultset_type' => 'array',
+        'resultset_type' => '',
     ];
 
     /**
